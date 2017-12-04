@@ -1,0 +1,32 @@
+{
+  "name": "contact-manager-service",
+  "version": "1.0.0",
+  "description": "Contact manager backend GrapgQL app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishna Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "graphql": "^0.11.7",
+    "graphql-server-express": "^1.2.0",
+    "graphql-tools": "^2.2.1",
+    "joi": "^13.0.2",
+    "lodash": "^4.17.4",
+    "merge-graphql-schemas": "^1.1.4",
+    "mysql2": "^1.4.2",
+    "node-validator": "^0.1.27",
+    "sequelize": "^4.17.2",
+    "validator": "^9.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.12.1"
+  }
+}
